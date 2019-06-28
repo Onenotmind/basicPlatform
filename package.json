@@ -1,0 +1,71 @@
+{
+  "name": "basicplatform",
+  "version": "1.0.0",
+  "description": "basic develop platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ext js,vue .",
+    "lint:fix": "eslint --ext js,vue --fix .",
+    "test:unit": "mocha-webpack --webpack-config ./config/webpack.config.dev.js test/*.js",
+    "start": "webpack-dev-server --progress --color --config ./config/webpack.config.dev.js",
+    "build": "webpack --config ./config/webpack.config.dev.js --progress"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue-i18n": "^8.1.0",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^4.4.0",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.11",
+    "qs": "^6.5.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.3",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuedraggable": "^2.16.0",
+    "vuex": "^3.0.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-merge": "^4.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onenotmind/basicPlatform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onenotmind/basicPlatform/issues"
+  },
+  "homepage": "https://github.com/Onenotmind/basicPlatform#readme"
+}
